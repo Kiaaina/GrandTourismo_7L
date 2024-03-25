@@ -7,7 +7,7 @@ mod con: lines=10 cols=20
 @set "GrandTourismo7apk=141284578910"
 @set "GrandTourismo7app=141243143812"
 @set "GrandTourismo7rom=916442105678"
-cecho {09}1=GrandTourismo7apk{/h}2=GrandTourismo7app{/h}3=GrandTourismo7rom{04}
+cecho {09}1=GrandTourismo7apk{\n}2=GrandTourismo7app{\n}3=GrandTourismo7rom{04}
 set /a m=choose;
 if (%m%=1) & goto one
 if (%m%=2) & goto two
