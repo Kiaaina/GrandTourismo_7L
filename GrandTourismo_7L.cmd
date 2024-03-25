@@ -3,7 +3,7 @@ cd /
 cls
 @cecho off
 title "Forcer_7L"
-mod con: lines=10 cols=20
+mode con: lines=10 cols=20
 @set "GrandTourismo7apk=141284578910"
 @set "GrandTourismo7app=141243143812"
 @set "GrandTourismo7rom=916442105678"
