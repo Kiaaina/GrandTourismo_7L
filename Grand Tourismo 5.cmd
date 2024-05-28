@@ -26,6 +26,6 @@ copy "%iso2% ./GT6.rom"
 goto 7L
 
 :7L
-cecho {05}Made_By_Kia7L{02}
+%cecho% {05}Made_By_Kia7L{02}
 @timeout /t 5
 exit
