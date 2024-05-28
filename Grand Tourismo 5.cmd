@@ -3,12 +3,13 @@ cd /
 cls
 mode 40,20
 title "GT5 & GT7L"
-@cecho off 
+@echo off 
           @123456789012
+@set "cecho=.\cecho.exe"
 @set "iso1=143128679112"
 @set "iso2=191234698152"
 
-cecho {04}1=GT5-XL.iso{\n}2=GT6.iso{07}
+%cecho% {04}1=GT5-XL.iso{\n}2=GT6.iso{07}
 
 set /a m=Choose;
 if (%m%=1) & goto one
