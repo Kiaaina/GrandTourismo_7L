@@ -12,8 +12,8 @@ title "GT5 & GT7L"
 %cecho% {04}1=GT5-XL.iso{\n}2=GT6.iso{07}
 
 set /p m=Choose;
-if %m%=1 goto one
-if %m%=2 goto two
+if %m%==1 goto one
+if %m%==2 goto two
 
 goto top
 
